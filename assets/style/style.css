@@ -1,0 +1,22 @@
+
+#quote {
+    color:white;
+    text-align:center;
+    text-shadow:2px black;
+    
+}
+#weather {
+    color:white;
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:50px;
+    margin-top:10px;
+    text-shadow: 2px black;
+    
+   
+}
+backgroundImage {
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}

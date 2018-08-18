@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Be Inspired</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body id="body"class="container-fluid">
+	<div class="app"></div>
+	<div id="image">
+
+	</div>
+	<div id="weather">
+		
+	</div>
+<div id="newTemp"></div>
+	<div id="quote">
+	</div>
+	<div id="todo">
+
+	</div>
+	
+		<form onsubmit="app.controllers.todoController.addTodo(event)">
+			<input type="text" name="todo" placeholder="what to do?" required>
+			<button type="submit">Make it official</button>
+		</form>
+
+
+
+
+	<!--JS Libraries-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+	<!--Initialize App-->
+	<script type='module' src="app/main.js"></script>
+</body>
+
+</html>
