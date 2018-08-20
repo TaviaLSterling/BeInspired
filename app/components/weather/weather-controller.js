@@ -8,7 +8,7 @@ function drawWeather(weather) {
 //	let template = ''
 //	data.forEach(weather => {
 	let	template = `
-	<div><h4>Temp: ${weather.main.temp}° F</h4></div>
+	<div><h2>Temp: ${weather.main.temp}° F</h2></div>
 	`	
 	// })
 document.getElementById('weather').innerHTML = template

@@ -1,22 +1,39 @@
 
 #quote {
     color:white;
+    text-shadow: 2px 2px 4px #000000;
     text-align:center;
-    text-shadow:2px black;
     
+    
+}
+#background {
+    background-color:plum;
+    margin-bottom:100px;
+}
+#todo-background {
+background-color:white;
+margin-bottom:15px;
 }
 #weather {
     color:white;
+    text-shadow: 2px 2px 4px #000000;
     display:flex;
     justify-content:flex-end;
     margin-bottom:50px;
     margin-top:10px;
-    text-shadow: 2px black;
-    
-   
+     
 }
 backgroundImage {
-  background-size:cover;
-  background-repeat:no-repeat;
 
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+
+#todo {
+ background-color:white;
+}
+#total {
+    background-color:plum;
+    margin-top:10px;
 }

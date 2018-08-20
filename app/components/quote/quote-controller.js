@@ -10,10 +10,10 @@ function drawQuotes(quote) {
 //	data.forEach(quote => {
 	//	template += `
 	let template = `
-	<div><h3>${quote.quote}</h3>
-	</div>
-	<div><p>-- ${quote.author}</p></div>
+	<div id="background" class="col-sm-6 offset-sm-3"><h3>${quote.quote}</h3>
 	
+	<div><p>-- ${quote.author}</p></div>
+	</div>
 	`	
 	
 document.getElementById('quote').innerHTML = template
